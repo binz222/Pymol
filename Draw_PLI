@@ -10,7 +10,7 @@ hide cartoon
 show sticks,lig | HBres
 zoom lig | HBres
 label HBres and name CA, resn+resi
-set label_size,36
+set label_size,30
 distance /HBres/A/A/ARG`371/NH1, /lig/G/A/BCZ`801/O7
 distance /HBres/A/A/ARG`371/NH2, /lig/G/A/BCZ`801/O8
 distance /HBres/A/A/ARG`118/NH1, /lig/G/A/BCZ`801/O8
