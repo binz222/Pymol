@@ -138,7 +138,7 @@ mset 1 x 500\
 保存第一帧、最后一帧\
 mview store, 1\
 mview store, 500\
-放大结合口袋并保存该帧
+放大结合口袋并保存该帧\
 zoom lig | HBres\
 mview store, 100\
 向左旋转90°并保存该帧\
