@@ -130,7 +130,7 @@ set surface_color, density, *n\
 set surface_color, forest, *p\
 光线追踪
 ray
-### 3. 视频制作
+### 3. 简单动画制作
 <video src="https://github.com/binz222/Pymol/blob/main/1.mp4" autoplay></video>  
 隐藏标签  
 hide label\
