@@ -1,0 +1,29 @@
+bg_color white
+fetch 1l7f 
+remove not (polymer | resi 801)
+create pro, polymer
+extract lig, resi 801 
+color yellow, lig & name C*
+extract HBres, resi 118+151+227+178+152+292+371
+color pink, HBres & name C*
+hide cartoon
+show sticks,lig | HBres
+zoom lig | HBres
+label HBres and name CA, resn+resi
+set label_size,36
+distance /HBres/A/A/ARG`371/NH1, /lig/G/A/BCZ`801/O7
+distance /HBres/A/A/ARG`371/NH2, /lig/G/A/BCZ`801/O8
+distance /HBres/A/A/ARG`118/NH1, /lig/G/A/BCZ`801/O8
+distance /HBres/A/A/ARG`118/NH2, /lig/G/A/BCZ`801/O8
+distance /HBres/A/A/ASP`151/O, /lig/G/A/BCZ`801/N30
+distance /HBres/A/A/GLU`227/OE1, /lig/G/A/BCZ`801/N27
+distance /HBres/A/A/TRP`178/O, /lig/G/A/BCZ`801/N27
+distance /HBres/A/A/ARG`152/NH2, /lig/G/A/BCZ`801/O14
+distance /HBres/A/A/ARG`292/NH2, /lig/G/A/BCZ`801/O7
+color green, dist*
+show cartoon, 1l7f
+color gray90, 1l7f
+set cartoon_transparency, 0.2
+ray
+
+

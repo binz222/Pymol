@@ -1,0 +1,20 @@
+hide label
+zoom
+mset 1 x 500
+mview store, 1
+scene 001, store
+mview store, 500
+zoom lig | HBres
+mview store, 100
+scene 002, store
+turn y, -90
+mview store, 200
+scene 003, store
+turn y, 90
+mview store, 300
+scene 004, store
+turn y, 90
+mview store, 400
+scene 005, store
+mplay
+
