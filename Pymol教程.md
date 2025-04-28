@@ -21,6 +21,7 @@ conda install -c conda-forge -c schrodinger pymol-bundle
 设置选中对象的颜色
 ## 3. Pymol绘图示例
 ### 1. 蛋白质配体相互作用
+![Picture1](https://github.com/binz222/Pymol/blob/main/ProLig.png)
 #### 准备工作
 将背景颜色设置为白色  
 **bg_color white** Display > Background > White
@@ -70,6 +71,7 @@ ray\
 输出图片\
 png 2.png, dpi=300
 ### 2. 分子轨道
+![Picture2](https://github.com/binz222/Pymol/blob/main/or.png)
 获取cube文件及mol2文件  
 formchk Int0.chk Int0.fchk\
 File > Open > Int0.fchk\
