@@ -1,0 +1,44 @@
+load Int0.mol2
+set valence, 0
+hide everything
+show sticks
+show spheres
+show labels
+show dashes
+set stick_radius, .07
+set sphere_scale, .18
+set sphere_scale, .13, elem H
+set bg_rgb=[1, 1, 1]
+set stick_quality, 50
+set sphere_quality, 4
+color gray85, elem C
+color red, elem O
+color slate, elem N
+color gray98, elem H
+set stick_color, black
+set ray_trace_mode, 1
+set ray_texture, 2
+set antialias, 3
+set ambient, 0.5
+set spec_count, 5
+set shininess, 50
+set specular, 1
+set reflect, .1
+set dash_color, black
+set dash_gap, .2
+set dash_length, .1
+set dash_round_ends, 0.1
+set dash_radius, .05
+set ray_trace_gain, 10
+set stick_h_scale, 1
+set ray_shadow, off
+set label_size, 60
+set label_distance_digits, 2
+set orthoscopic, on
+load Int0_mo95.cub
+isosurface Int0-n, Int0_mo95, -0.02
+isosurface Int1-p, Int0_mo95, +0.02
+set transparency, 0.2
+set surface_color, density, *n
+set surface_color, forest, *p
+ray
