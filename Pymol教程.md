@@ -71,7 +71,7 @@ ray\
 输出图片\
 png 2.png, dpi=300
 ### 2. 分子轨道
-![Picture2](https://github.com/binz222/Pymol/blob/main/or.png)
+![Picture2](https://github.com/binz222/Pymol/blob/main/or.png)\
 获取cube文件及mol2文件  
 formchk Int0.chk Int0.fchk\
 File > Open > Int0.fchk\
