@@ -28,11 +28,10 @@ conda install -c conda-forge -c schrodinger pymol-bundle
 载入蛋白\
 **fetch 1l7f** File > Get PDB File > PDB ID: 1l7f\
 删除多余原子并复制蛋白结构\
-**remove not (polymer | resi 801)** Sequence > remove
+**remove not (polymer | resi 801)** Sequence > remove\
+**create pro, polymer** A > Copy to object, rename
 #### 绘制结合口袋相互作用
-复制蛋白并重命名
-**create pro, polymer** A > Copy to object, rename  
-提取配体、重命名并更改颜色\
+提取配体、重命名并更改颜色  
 **extract lig, resi 801** A > extract object, rename\
 **color yellow, lig & name C\*** C > by element\
 提取氢键残基并更改颜色\
