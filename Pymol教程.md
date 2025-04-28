@@ -30,7 +30,7 @@ conda install -c conda-forge -c schrodinger pymol-bundle
 删除多余原子并复制蛋白结构\
 **remove not (polymer | resi 801)** Sequence > remove
 #### 绘制结合口袋相互作用
-**create pro, polymer** A > Copy to object, rename
+**create pro, polymer** A > Copy to object, rename  
 提取配体、重命名并更改颜色\
 **extract lig, resi 801** A > extract object, rename\
 **color yellow, lig & name C\*** C > by element\
