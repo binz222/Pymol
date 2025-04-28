@@ -131,6 +131,9 @@ set surface_color, forest, *p\
 光线追踪
 ray
 ### 3. 视频制作
+<video src="https://github.com/binz222/Pymol/blob/main/1.mp4" autoplay="ture" control="controls" width="800" height="600">
+</video>
+
 隐藏标签  
 hide label\
 缩放\
