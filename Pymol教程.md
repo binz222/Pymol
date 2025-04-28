@@ -155,6 +155,11 @@ turn y, 90\
 mview store, 400\
 播放\
 mplay
+## 参考文章
+http://pymol.chenzhaoqiang.com/intro/basicManual.html  
+https://www.shaoqz.cn/2020/06/29/PyMol-Orbital/  
+https://zhuanlan.zhihu.com/p/129091849  
+https://www.bilibili.com/video/BV1FV4y187DF?spm_id_from=333.788.videopod.sections&vd_source=a250bc4364a198abeb310825910a3646
 
 
 
