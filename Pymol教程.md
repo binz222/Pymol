@@ -44,7 +44,7 @@ conda install -c conda-forge -c schrodinger pymol-bundle
 **zoom lig | HBres** A > zoom \
 标记残基名及编号并设置字号\
 **label HBres and name CA, resn+resi** L > residues\
-**set label_size,36** Setting > Label > Size\
+**set label_size,30** Setting > Label > Size\
 绘制氢键相互作用并更改颜色\
 **distance /HBres/A/A/ARG\`371/NH1, /lig/G/A/BCZ\`801/O7** Wizard > Measurement\
 **color green, dist\*** C > green\
