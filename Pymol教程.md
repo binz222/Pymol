@@ -46,7 +46,7 @@ conda install -c conda-forge -c schrodinger pymol-bundle
 **label HBres and name CA, resn+resi** L > residues\
 **set label_size,30** Setting > Label > Size\
 绘制氢键相互作用并更改颜色\
-**distance /HBres/A/A/ARG\`371/NH1, /lig/G/A/BCZ\`801/O7** Wizard > Measurement\
+**distance /HBres/A/A/371/NH1, /lig/G/A/801/O7** Wizard > Measurement\
 **color green, dist\*** C > green\
 将蛋白以卡通展示并设置颜色、透明度\
 **show cartoon, 1l7f** S > Cartoon\
